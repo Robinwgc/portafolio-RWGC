@@ -1,0 +1,1 @@
+console.log("Sección inicio cargada");

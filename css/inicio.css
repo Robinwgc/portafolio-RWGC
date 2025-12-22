@@ -1,0 +1,16 @@
+#inicio {
+    padding: 40px;
+    text-align: center;
+}
+
+#inicio img {
+    width: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+#inicio button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
