@@ -1,16 +1,57 @@
-#inicio {
-    padding: 40px;
-    text-align: center;
+.hero {
+    background-color: #2f4864;
+    color: white;
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+    padding: 0 60px;
 }
 
-#inicio img {
-    width: 150px;
-    border-radius: 50%;
-    margin: 20px 0;
+.hero-content {
+    max-width: 600px;
 }
 
-#inicio button {
-    padding: 10px 15px;
-    margin: 5px;
-    cursor: pointer;
+.badge {
+    background-color: rgba(255,255,255,0.15);
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 25px 0;
+    line-height: 1.2;
+}
+
+.hero h1 span {
+    color: #ffffff;
+}
+
+.hero p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.btn.primary {
+    background-color: white;
+    color: #2f4864;
+}
+
+.btn.secondary {
+    border: 1px solid white;
+    color: white;
 }
